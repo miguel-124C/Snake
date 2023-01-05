@@ -8,18 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <title>Snake</title>
 </head>
-<body>
-    <div id="board">
+<body style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
 
-    </div>
     <div class="boardInfo">
         <div>
-            Score: <div id="scoreBoard"></div>
+            <div id="scoreBoard">Score</div>
         </div>
         <button id="start">Start</button>
     </div>
-    <div id="gameOver">Game Over</div>
+    <div id="board">
 
+    </div>
+    <div id="gameOver">
+        <div class="gameOver-text">
+           <div class="msj-gameover">Perdiste</div> 
+        </div> 
+    </div>
+    <div class="pause">
+        <div id="option">
+            <div class="options">
+                <div class="backGame ">Volver al juego</div>
+                <div class="retry ">Reintentar</div>
+                <div class="exit ">Salir</div>
+            </div>
+
+        </div>
+    </div>
 
 
     <script src="index.js"></script>
