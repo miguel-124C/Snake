@@ -85,6 +85,7 @@ const addFood=()=>{
         gameSpeed-=varTime;
         console.log("cambia velocidad");
         clearInterval(moveInterval);
+    }
 }
 
 const gameOver =()=>{
