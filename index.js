@@ -85,11 +85,6 @@ const addFood=()=>{
         gameSpeed-=varTime;
         console.log("cambia velocidad");
         clearInterval(moveInterval);
-        moveInterval = setInterval(()=>moveSnake(),gameSpeed);
-        varScore+=10;
-        console.log('va a ua velocidad de: '+gameSpeed);
-    }
-    
 }
 
 const gameOver =()=>{
